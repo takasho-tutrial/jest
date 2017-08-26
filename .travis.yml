@@ -9,7 +9,5 @@ env:
   matrix:
   - CMD=test
   - CMD=lint
-before_script:
-- npx flow-typed install
 script:
 - npm run $CMD
