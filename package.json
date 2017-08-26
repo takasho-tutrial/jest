@@ -1,0 +1,30 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "git+https://github.com/takasho-tutrial/jest.git",
+  "keywords": [],
+  "author": "taka-sho <takasho530000@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takasho-tutrial/jest/issues"
+  },
+  "homepage": "https://github.com/takasho-tutrial/jest#readme",
+  "devDependencies": {
+    "@takasho/eslint-config-flowtype": "^0.0.1",
+    "babel": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.5.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "jest": "^20.0.4"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
