@@ -1,4 +1,3 @@
-/* @flow */
 import 'jest'
 
 import { sum } from '../src/sum'
