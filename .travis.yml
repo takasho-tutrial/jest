@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js: stable
+cache:
+  yarn: true
+  directories:
+  - node_modules
+env:
+  matrix:
+  - CMD=test
+  - CMD=lint
+script:
+- npm run $CMD
