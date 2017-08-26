@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "run-p lint:*",
+    "lint:eslint": "eslint . --cache",
+    "lint:flow": "flow",
     "test": "jest"
   },
   "repository": "git+https://github.com/takasho-tutrial/jest.git",
@@ -22,7 +25,8 @@
     "babel-preset-flow": "^6.23.0",
     "eslint": "^4.5.0",
     "eslint-plugin-jest": "^20.0.3",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "npm-run-all": "^4.1.0"
   },
   "jest": {
     "collectCoverage": true
